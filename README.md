@@ -6,8 +6,11 @@ This is a test project to try [SAFE](https://safe-stack.github.io/) from scratch
 
 * Install template `dotnet new -i SAFE.Template`
 * Create template `dotnet new SAFE --deploy heroku --force` (`--force ` because I already had this README.md)
-* Run with `fake build -t Run`
-
+* Run with `fake build -t Run` (see Install pre-requisites in original SAFE readme at the end of this one)
+* Install heroku CLI: `npm install -g heroku`
+* Configure heroku CLI: `heroku login`
+* Configure projet: `fake build -t Configure`
+* Deploy projet: `fake build -t Deploy`
 
 
 # Original SAFE Template
